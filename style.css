@@ -118,6 +118,21 @@ h1 {
   margin-bottom: 2rem;
 }
 
+.fa-github-alt
+{
+  font-size: 5rem;
+  position: fixed;
+  z-index: 1;
+  top: 85%;
+  left: 90%;
+
+  border: 2px solid white;
+  padding: 10px;
+  border-radius: 20px;
+
+  color: white;
+}
+
 
 /* RESPONSIVE DESIGN USING MEDIA QUERIES */
 
@@ -154,6 +169,16 @@ h1 {
   .message , .label-score , .label-highscore
   {
     font-size: 1.2rem;
+  }
+
+  .fa-github-alt
+  {
+    font-size: 3.5rem;
+
+    border: none;
+
+    top: 85%;
+    left: 20px;
   }
 
 
